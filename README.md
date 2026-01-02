@@ -166,7 +166,7 @@ mvn spring-boot:run -pl analytics-service -Dspring-boot.run.arguments="--server.
 
 ---
 
-## 📊 Flux de données CQRS
+##  Flux de données CQRS
 
 ### Côté Commande (Command Side)
 
@@ -192,7 +192,7 @@ mvn spring-boot:run -pl analytics-service -Dspring-boot.run.arguments="--server.
 
 ---
 
-## 🔌 Endpoints disponibles
+##  Endpoints disponibles
 
 ### Service CQRS (Port 8080)
 
@@ -225,7 +225,7 @@ GET /analytics/chart.html
 
 ---
 
-## 📦 Technologies utilisées
+##  Technologies utilisées
 
 | Technologie | Version | Rôle |
 |-------------|---------|------|
@@ -288,7 +288,7 @@ server.port=8081
 
 ---
 
-## 📋 Modèle de données
+##  Modèle de données
 
 ### Agrégat Account (Command Side)
 
@@ -370,7 +370,7 @@ tail -f analytics-service/target/spring.log
 
 ---
 ```
-## 📚 Ressources supplémentaires
+##  Ressources supplémentaires
 
 - [Documentation Axon Framework](https://docs.axoniq.io/)
 - [Pattern CQRS](https://martinfowler.com/bliki/CQRS.html)
@@ -379,21 +379,6 @@ tail -f analytics-service/target/spring.log
 
 ---
 
-## 👤 Auteur
-
-**Développement** : Projet CQRS avec Axon Framework
-**Date** : 2026-01-02
-
----
-
-##  Licence
-
-Ce projet est fourni à titre d'exemple éducatif.
-
----
-
-
----
 
 ##  FAQ
 
