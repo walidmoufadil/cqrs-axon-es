@@ -1,6 +1,5 @@
 package org.example.analyticsservice.controller;
 
-
 import org.example.analyticsservice.entities.AccountAnalytics;
 import org.example.analyticsservice.queries.GetAllAccountAnalytics;
 import org.example.analyticsservice.queries.GetAllAccountAnalyticsByAccountId;

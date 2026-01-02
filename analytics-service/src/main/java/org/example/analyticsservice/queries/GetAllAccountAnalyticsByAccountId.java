@@ -1,11 +1,14 @@
 package org.example.analyticsservice.queries;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@Getter @NoArgsConstructor
+@Getter
 public class GetAllAccountAnalyticsByAccountId {
-    private String accountId;
+    private final String accountId;
+
+    public GetAllAccountAnalyticsByAccountId(String accountId) {
+        this.accountId = accountId;
+    }
 }
